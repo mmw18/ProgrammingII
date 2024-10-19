@@ -1,3 +1,12 @@
+/**
+ * Module 2 Critical Thinking
+ * Megan M. Wright
+ * Colorado State Univeristy Global
+ * CSC372-1: Computer Programming II
+ * Dr. Luis Gonzales
+ * October 19, 2024
+ */
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
