@@ -110,7 +110,7 @@ class Triangle extends Shape {
 }
 
 // This is the main overall class to show the use of each shape class
-public class Option2AbstractClassShape {
+public class Option2Shape {
     public static void main(String[] args) {
 
         System.out.println("Greetings!");
