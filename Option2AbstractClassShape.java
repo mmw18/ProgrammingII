@@ -112,6 +112,10 @@ class Triangle extends Shape {
 // This is the main overall class to show the use of each shape class
 public class Option2AbstractClassShape {
     public static void main(String[] args) {
+
+        System.out.println("Greetings!");
+        System.out.println("This program will calculate and display the area and perimeter values of three different shapes.\n");
+
         Shape myRectangle = new Rectangle(9, 5);
         Shape myCircle = new Circle(4);
         Shape myTriangle = new Triangle(5.0, 4.0, 3.0);
