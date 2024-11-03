@@ -76,7 +76,6 @@ private void writeContentToTxtFile() {
     }
 }
 
-
     // This is a method that will change the background color to a random shade of orange
     private void randomizeBackgroundColor() {
         Random randomValueGenerator = new Random();
