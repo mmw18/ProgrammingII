@@ -1,3 +1,12 @@
+/**
+ * Module 6 Critical Thinking
+ * Megan M. Wright
+ * Colorado State Univeristy Global
+ * CSC372-1: Computer Programming II
+ * Dr. Luis Gonzales
+ * November 17, 2024
+ */
+
 import java.util.ArrayList;
 
 //This is a utility class used to sort the roster of students by roll number using merge sort. 
