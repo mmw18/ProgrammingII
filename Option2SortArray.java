@@ -38,7 +38,7 @@ public class Option2SortArray {
         // Here we will sort the student roster by roll number, using custom 
         Option2MergeSort.sort(roster);
 
-        System.out.println("\nJHere is the roster, now sorted by roll number");
+        System.out.println("\nHere is the roster, now sorted by roll number");
         for (Option2Student student : roster) {
             System.out.println(student);
         }

@@ -28,30 +28,31 @@ public class Option2MergeSort {
 
         merge(students, LittleList1, LittleList2);
     }
-
     
      // This will merge the 2 sorted lists back into single list
      // @param originalList > the list to store merged results.
      // @param LittleList1 > the left half of sorted elements.
      // @param LittleList2 > the right half of sorted elements.
      
-    private static void merge(ArrayList<Option2Student> originalList, ArrayList<Option2Student> LittleList1, ArrayList<Option2Student> LittleList2) {
-        int i = 0, j = 0, k = 0;
+     private static void merge(ArrayList<Option2Student> originalList, ArrayList<Option2Student> LittleList1, ArrayList<Option2Student> LittleList2) {
+        int i = 0, j = 0;
+
+        originalList.clear();
 
         while (i < LittleList1.size() && j < LittleList2.size()) {
             if (LittleList1.get(i).getRollNumber() <= LittleList2.get(j).getRollNumber()) {
-                originalList.set(k++, LittleList1.get(i++));
+                originalList.add(LittleList1.get(i++));
             } else {
-                originalList.set(k++, LittleList2.get(j++));
+                originalList.add(LittleList2.get(j++));
             }
         }
         // This will add little list 1 back into the original list
         while (i < LittleList1.size()) {
-            originalList.set(k++, LittleList1.get(i++));
+            originalList.add(LittleList1.get(i++));
         }
         // this will add little list 2 back into the original list
         while (j < LittleList2.size()) {
-            originalList.set(k++, LittleList2.get(j++));
+            originalList.add(LittleList2.get(j++));
         }
     }
 }
